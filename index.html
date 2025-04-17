@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="search" id="searchBar">
+        <input type="text" id="form" placeholder="Search for a city..." />
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+      <div class="info">
+        <h1 class="city" id="name"></h1>
+        <p class="state" id="country"></p>
+        <p class="datetime" id="date"></p>
+        <p class="forecast" id="description"></p>
+        <img class="icons" id="icon" src="" alt="cloud"/>
+        <p class="temperature" id="temp"></p>
+      </div>
+      <div class="cards">
+        <div class="humidity">
+          <i class="fa-solid fa-droplet"></i>
+          <div>
+            <p class="humidity" id="humidity"></p>
+          </div>
+        </div>
+        <div class="speed">
+          <i class="fa-solid fa-wind"></i>
+          <p class="wind" id="speed"></p>
+        </div>
+        <div class="pressure">
+        
+          <i class="fa-solid fa-gauge-high"></i>
+          <p class="pressure" id="pressure"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif; 
+
+ } 
+
+
+ 
+body{
+   display:flex;
+   align-items: center;
+   justify-content:center;
+} 
+
+.container {
+   background: rgb(85, 179, 216);
+   color:black;
+   padding: 10px 50px;
+   width: 50%;
+   margin: auto;
+   border-radius: 10px;
+   text-align: center;
+   margin-top: 20px;
+   position:flex;
+   
+   
+}
+.search{
+    position: relative;
+    display: flex;
+    
+}
+ .search input{
+    padding: 0px 35px;
+    font-size:18px;
+    width:300px;
+    margin-top:5px;
+    border-radius: 20px;
+    border: 1px solid #0004;
+    align-items: center;
+}
+
+.search button{
+    position:absolute;
+    top:10px;
+    left: 5px;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search button i{
+    font-size: 20px;
+}
+.search button i:hover{
+    color: green;
+}
+
+.info {
+   text-align: center;
+   margin-top:20px;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.datetime {
+   margin-bottom: 20px;
+   font-size: 15px;
+}
+.forecast{
+    background:rgb(78, 147, 174);
+    display:inline-flex;
+    padding:5px;
+    border-radius: 40px; 
+    justify-content: center;
+}
+    
+.temperature {
+   display:flex;
+   margin-top:30px;
+   justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.cards{
+   display:flex; 
+   align-items: center;
+   background: rgb(73, 133, 157);
+   padding: 25px;
+   border-radius: 30px;
+   margin-top: 10%;
+   justify-content: space-around;
+}
+.humidity{
+    
+    align-items: center;
+
+}
+ 
